@@ -4,6 +4,7 @@ body {
     background: #BFFFF1;
     overflow-x: hidden; 
     overflow-y:auto;
+    min-width:1000px;
 }
 
        

@@ -4,7 +4,7 @@ body {
     background: #BFFFF1;
     overflow-x: hidden; 
     overflow-y:auto;
-    min-width:1000px;
+    min-width:2000px;
 }
 
        
@@ -175,7 +175,7 @@ nav {
 }
 
 .Section{
-    min-width:1000px;
+    min-width:2000px;
     min-height:160vh;
     height:auto;
     margin-bottom:20vh;

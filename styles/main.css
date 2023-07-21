@@ -32,9 +32,9 @@ h3{
 
 .center {
     display: block;
-    margin: auto;
-    margin-top:0;
-    margin-bottom:0;
+    padding: auto;
+    padding-top:0;
+    padding-bottom:0;
     text-align:center;
 }
 

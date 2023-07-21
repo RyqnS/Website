@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> ryqnsong.com </title>
+        <link rel="icon" type="image/x-icon">
+        <link rel = "stylesheet" href = "./styles/main.css"> 
+        <link rel="stylesheet" href="./assets/blobz.min.css">;
+    </head>
+    <body>
+        <div class = "myImage">
+            <div id = "bg"></div>
+        </div>
+
+        <div class="header sticky">
+            <h4 class = "name" style = "margin-left:2vh;top:-.5vh">
+                Ryqn
+            </h4><h4 class = "name" style = "margin-bottom:0vh;top:.5vh">         
+                Song
+            </h4>
+
+            <nav>
+                <ul style = "font-size:1.5vh">
+                    <li><a href = "#AboutMe">About Me</a></li>
+                    <li><a href = "/SongRyanResume.pdf" target = "_blank">Resume</a></li>
+                    <li><a href = "#Projects">Projects</a></li>
+                    <li><a href = "#Work">Work</a></li>
+                    <li><a href = "#Skills">Skills</a></li>
+                    <li><a href = "#ContactMe">Contact Me</a></li>
+
+
+                </ul>
+            </nav>
+
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
+            </div>
+            <!-- <div class = "navBar">
+                <h1 style="color:black;vertical-align:text-top;margin:0px">Placeholders</h1>
+            </div> -->
+        </div>
+       
+
+        <!-- big center scrolly area -->
+        <div style="min-height:1000px;font-size:36px;">
+            <div style = "margin-bottom: 200px;">
+                <div>
+                    <div class = "fade" id = "AboutMe" >               
+                        <img src = "images/pfp.jpg" id = "pfp" class = "center fade">
+                    </div>
+                    <div class = "center" style = "width:50%">
+                        <H2 style = "margin-top:0px">About Me</H2>
+                        <p style = "font-size:2.5vh">
+                            Welcome to my page! I was born in Virginia and
+                             raised in Maryland. My pronouns are he/him and I
+                             consider myself an Asian American. I actually wear 
+                             glasses most of the time unlike the photo above, and  
+                             my favorite foods are generally spicy. I often 
+                             cook in my free time and enjoy using art and web/app dev
+                             as creative outlets.
+                        </p>
+
+
+                        <p style = "font-size:2.5vh">
+                            I currently attend Carnegie Mellon University and am
+                             expected to graduate in 2026. I am currently studying 
+                             Statistics & Machine Learning while also taking courses
+                              for a double major in Computer Science.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class = "Section" id = "Projects">
+
+                <div>
+                    <h3 style = "margin-left: 5%">Projects</h3>
+                </div>
+                <div class = "line" style = "margin-left:5%;margin-right:10%"></div>
+                    <div class="parent center"  style = "position:relative">
+                        <div class = "bigCircle" style = "
+                        width: 30em;
+                        height: 30em;
+                        border-width:0px
+                        ">
+                        <div class="tk-blob" style="scale:1.2;
+                        --time: 20s; --amount: 5; --fill: #56cbb9;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.2 726.7" >
+                              <path d="M539.8 137.6c98.3 69 183.5 124 203 198.4 19.3 74.4-27.1 168.2-93.8 245-66.8 76.8-153.8 136.6-254.2 144.9-100.6 8.2-214.7-35.1-292.7-122.5S-18.1 384.1 7.4 259.8C33 135.6 126.3 19 228.5 2.2c102.1-16.8 213.2 66.3 311.3 135.4z"></path>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                    
+                        <div onclick="window.open('https://youtu.be/kjS0NT63ZYM','mywindow');" class="div1 project fill"> 
+                            <div> Doodle Jump </div>
+                        </div>
+                        <div onclick="window.open('https://youtu.be/q1vsdAQPjl8','mywindow');" class="div2 project fill"> 
+                            <div> Rain Check </div>
+                        </div>
+                        <div onclick="window.open('https://youtu.be/nwCw_cybhDA','mywindow');" class="div3 project fill"> 
+                            <div> Sudoku </div>
+                        </div>
+                        <div onclick="window.open('https://youtu.be/zc7LvXmnsWM','mywindow');" class="div4 project fill"> 
+                            <div> AR Bloons </div>
+                        </div>
+                        <div onclick="window.open('https://www.youtube.com/watch?v=d6Fv6Ypnhgk','mywindow');" class="div5 project fill"> 
+                            <div> SQLite </div>
+                        </div>
+                    </div>
+            </div>
+            <div class = "Section" style = "position:relative;min-height:0vh" id = "Work">
+                <div style = "width:50vh;height:50vh;background-color:black;position:absolute;left:-10%;transform:rotate(45deg);opacity:0.3;z-index:0"></div>
+                <div style = "width:48vh;height:45vh;background-color:black;position:absolute;left:-10%;transform:rotate(45deg);opacity:0.3;z-index:0"></div>
+                <div style = "width:80vh;height:80vh;background-color:black;position:absolute;top:60%;left:60%;transform:rotate(45deg);opacity:0.3;z-index:0"></div>
+                <div style = "width:80vh;height:80vh;background-color:black;position:absolute;top:60%;left:70%;transform:rotate(15deg);opacity:0.3;z-index:0"></div>
+
+                <div class = "center">
+                    <h3>Work Experience</h3>
+                </div>
+                <div class = "line center" style = "width:80%"></div>
+
+                <div class = "jobDesc left" style = "background-color:#B6ACC3">
+                    <h1>SSong's Hotdog</h1>
+                    <p style = "display:inline-block;margin:0vh;margin-left:5vh;font-style:italic">
+                        Retail
+                    </p>
+                    <p style = "margin:0vh;margin-left:auto;float:right;margin-right:5vh;font-style:italic;text-align:right">
+                        Summer 2021
+                    </p>
+                    <div class = "line" style = "width:50%;height:1px;margin-left:5%;margin-right:10%;margin-bottom:0px"></div>
+                    <div style = "margin-left:auto;margin-right:5%;width:90%;margin-bottom:10vh">
+                        <p style = "font-size:2vh">
+                            - Quickly became a reliable member trusted to mentor newer members
+                        </p>
+                    </div>
+                </div>
+                <div class = "jobDesc right" style ="background-color:blanchedalmond">
+                    <h1>NASA Goddard</h1>
+                    <p style = "display:inline-block;margin:0vh;margin-left:5vh;font-style:italic">
+                        Aerospace
+                    </p>
+                    <p style = "margin:0vh;margin-left:auto;float:right;margin-right:5vh;font-style:italic;text-align:right">
+                        Summer 2021, 2022
+                    </p>
+                    <div class = "line" style = "width:50%;height:1px;margin-left:5%;margin-right:10%;margin-bottom:0px"></div>
+                    <div style = "margin-left:auto;margin-right:5%;width:90%;margin-bottom:10vh">
+                        
+                        <p style = "font-size:2vh;margin:20px">
+                            - Combined, screened, and injected various Satellite data into a Machine Learning Model,
+                             then generated matrices and plots to visualize model prediction.
+                        </p>
+                        <p style = "font-size:2vh;margin:20px">
+                            - Built a basic-identification model using Calispo-ABI patch images with Convolutional Neural Network.
+                        </p>  
+                        <p style = "font-size:2vh;margin:20px">
+                            - Work presented at American Geophysical Union and American Meteorological Society
+                        </p>  
+                        
+                    </div>
+                </div>
+                <div class = "jobDesc left" style = "background-color:#85BAA1">
+                    <h1>KTBYTE Computer Science Academy</h1>
+                    <p style = "display:inline-block;margin:0vh;margin-left:5vh;font-style:italic">
+                        Education
+                    </p>
+                    <p style = "margin:0vh;margin-left:auto;float:right;margin-right:5vh;font-style:italic;text-align:right">
+                        Current
+                    </p>
+                    <div class = "line" style = "width:50%;height:1px;margin-left:5%;margin-right:10%;margin-bottom:0px"></div>
+                    <div style = "margin-left:auto;margin-right:5%;width:90%;margin-bottom:10vh">
+                        <p style = "font-size:2vh;margin:20px">
+                            - Guided students from across the globe in creating apps such as Flappy Bird and Snake
+                        </p>
+                        <p style = "font-size:2vh;margin:20px">
+                            - Lead problem solution sessions for elementary-middle school students learning Java
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class = "Section" style = "min-height:0vh;position:relative;"; id = "Skills">
+                <div class = "center">
+                    <h3 style = "text-align:center;margin-bottom:10vh">Skills</h3>
+                </div>
+                <div>
+                    <div class = "center" style = "scale:.9;height:120vh;" id="c">
+                        <div class = "circle" id = "circ"></div>
+                        <div style = "width:50vh;height:50vh;background-color:transparent;position:absolute;top:-20%;left:-20%;transform:rotate(45deg);opacity:0.3;z-index:0">
+                            <div class="tk-blob" style = "scale:1.3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.2 726.7">
+                                  <path d="M539.8 137.6c98.3 69 183.5 124 203 198.4 19.3 74.4-27.1 168.2-93.8 245-66.8 76.8-153.8 136.6-254.2 144.9-100.6 8.2-214.7-35.1-292.7-122.5S-18.1 384.1 7.4 259.8C33 135.6 126.3 19 228.5 2.2c102.1-16.8 213.2 66.3 311.3 135.4z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div style = "width:60vh;height:60vh;background-color:transparent;position:absolute;top:-30%;left:-20%;transform:rotate(15deg);opacity:0.1;z-index:0">
+                            <div class="tk-blob" style = "scale:1.3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.2 726.7">
+                                  <path d="M539.8 137.6c98.3 69 183.5 124 203 198.4 19.3 74.4-27.1 168.2-93.8 245-66.8 76.8-153.8 136.6-254.2 144.9-100.6 8.2-214.7-35.1-292.7-122.5S-18.1 384.1 7.4 259.8C33 135.6 126.3 19 228.5 2.2c102.1-16.8 213.2 66.3 311.3 135.4z"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+
+                        <div class = "bigCircle" style = "
+                        width: 16em;
+                        height: 16em;
+                        "></div>
+                        <div class = "bigCircle" style = "
+                        width: 22em;
+                        height: 22em;
+                        "></div>
+                        <div class = "bigCircle" style = "
+                        width: 30em;
+                        height: 30em;
+                        "></div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class = "Section" style = "background: linear-gradient(90deg, rgba(191,255,241,1) 0%, rgba(180,251,236,1) 49%, rgba(191,255,241,1) 100%);position:relative;min-height:10vh;margin-bottom:0%" id = "ContactMe">
+                <div class = "line" style = "margin-left:5%;margin-right:5%;margin-bottom:0"></div>
+                <div>
+                    <h1 style = "margin-left: 5%;font-size:30px; font-weight:100">Contacts</h1>
+                </div>
+                <div style = "margin-left:6%">
+                    <div style = "display:inline-block;width:61%;position:relative">
+                        <p style ="display:inline-block;"> Phone </p>
+                        <a href = "tel:240-246-5896"><img style = "width:40px;height:40px"src ="images/phone.png"></a>
+                    </div>
+                    <div style = "display:inline-block;position:relative">
+                        <p style ="display:inline-block;margin-right:1vh"> LinkedIn </p>
+                        <a href = "https://www.linkedin.com/in/ryan-song-82b369212/" target="_blank"><img style = "width:30px;height:30px"src ="images/linkedin.png"></a>
+                    </div>
+
+                    <div></div>
+                    <div style = "display:inline-block;width:61%">
+                        <p style ="display:inline-block"> Email </p>
+                        <a href = "mailto:ryqnsong@gmail.com"><img style = "width:30px;height:20px"src ="images/gmail.webp"></a>
+                    </div>
+                    <div style = "display:inline-block;position:relative">
+                        <p style ="display:inline-block;margin-right:1vh"> Github </p>
+                        <a href = "https://github.com/RyqnS/" target="_blank"><img style = "width:30px;height:30px"src ="images/git.png"></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+            x
+    <script type = "text/javascript">
+        var headerBg = document.getElementById('bg')
+            
+        window.addEventListener('scroll',function(){
+            headerBg.style.opacity = 1 - +window.pageYOffset/1500 + ''
+            headerBg.style.top =  window.pageYOffset/50 + 'px'
+        })
+
+        window.addEventListener('scroll', () => {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+
+        });
+    
+    </script>
+
+    <script>
+        var skills = "python css html java sml/nj jupyter-notebook xcode swift kotlin android-studio idle linux C R r-studio excel matplotlib numpy sklearn pandas chinese data-analysis design terminal";
+        var words = {};
+        var words_attr = [];   
+
+        string_handle(skills);
+
+        function getOffset(element) {
+            var position_x = element.offsetLeft;
+            var position_y = element.offsetTop;
+            var height_x = element.offsetWidth;
+            var height_y = element.offsetHeight;
+            var tolerance = 0; // will get doubled
+            return {
+                A: {
+                y: position_y - tolerance,
+                x: position_x - tolerance
+                },
+                B: {
+                y: position_y + height_x + tolerance,
+                x: position_x - tolerance
+                },
+                C: {
+                y: position_y + height_x + tolerance,
+                x: position_x + height_y + tolerance
+                },
+                D: {
+                y: position_y - tolerance,
+                x: position_x + height_y + tolerance
+                }
+            };
+            }
+
+        function getOverlap(div1, div2) {
+            coor_1 = getOffset(div1);
+            coor_2 = getOffset(div2);
+            return (
+                (coor_1.A.x <= coor_2.A.x && coor_2.A.x <= coor_1.D.x) && (coor_1.A.y <= coor_2.A.y && coor_2.A.y <= coor_1.B.y) ||
+                (coor_1.A.x <= coor_2.B.x && coor_2.B.x <= coor_1.D.x) && (coor_1.A.y <= coor_2.B.y && coor_2.B.y <= coor_1.B.y) ||
+                (coor_1.A.x <= coor_2.C.x && coor_2.C.x <= coor_1.D.x) && (coor_1.A.y <= coor_2.C.y && coor_2.C.y <= coor_1.B.y) ||
+                (coor_1.A.x <= coor_2.D.x && coor_2.D.x <= coor_1.D.x) && (coor_1.A.y <= coor_2.D.y && coor_2.D.y <= coor_1.B.y)
+            );
+            }
+        function elementsOverlap(el1, el2) {
+            const domRect1 = el1.getBoundingClientRect();
+            const domRect2 = el2.getBoundingClientRect();
+
+            return (
+                domRect1.top > domRect2.bottom ||
+                domRect1.right < domRect2.left ||
+                domRect1.bottom < domRect2.top ||
+                domRect1.left > domRect2.right
+            );
+        }
+
+        function overlaps(a, b) {
+            const rect1 = a.getBoundingClientRect();
+            const rect2 = b.getBoundingClientRect();
+            const isInHoriztonalBounds =
+                rect1.x < rect2.x + rect2.width && rect1.x + rect1.width > rect2.x;
+            const isInVerticalBounds =
+                rect1.y < rect2.y + rect2.height && rect1.y + rect1.height > rect2.y;
+            const isOverlapping = isInHoriztonalBounds || isInVerticalBounds;
+            return isOverlapping;
+        }
+
+            
+        window.onload = function(argument) {
+            var twords = [];
+            var words = skills.split(" ");
+
+
+            var tword = {},
+                overlapping = false,
+                NumWords = words.length,
+                protection = 15000,
+                index = 0;
+                counter = 0;
+                width = window.innerWidth-20,
+                height = window.innerHeight
+
+                while (twords.length < NumWords &&
+                        counter < protection) {
+
+
+                    var x = Math.random() * width*.9+width*.05;
+                    var y = Math.random() * height;
+                    var elem = document.createElement("div");
+                    elem.className = "word floating";
+                    elem.textContent = words[index];
+                    elem.style.position = "absolute";
+                    elem.style.textShadow = `${(innerWidth/2 - x)/84}px ${(innerHeight/2 - y)/84}px rgb(122,122,122,0.5)`;
+                    elem.style.left =  x + "px";
+                    elem.style.top = y + "px";
+                    elem.style.fontSize = "15px";
+                    elem.style.margin = 0;
+                    // elem.style.scale = Math.random()*2 + .6;
+                    elem.style.zIndex = "2";
+
+                    document.getElementById('c').appendChild(elem);
+
+                    overlapping = false;
+
+
+                    for (var i = 0; i < twords.length; i++) {
+                        var existing = twords[i];
+                        
+                        if (overlaps(elem,existing)) {
+                            // They are overlapping
+                            overlapping = true;
+                            // do not add to array
+                            document.getElementById('c').removeChild(elem);
+                            break;
+
+                        }
+                    }
+                        
+                        // add valid circles to array
+                    if (!overlapping) {
+                        twords.push(elem);  
+                        index++;    
+                    }
+                        
+                    counter++;
+                }
+
+                
+
+                for (let i = 0; i < twords.length; i ++){
+                    var tword = twords[i];
+                        // var scale =  Math.random()*2+.5;
+                        // elem.style.scale = scale;
+                    
+                    // document.getElementById('c').removeChild(tword);
+                    var randomScale = Math.random()*1.5 + 1.5;
+                    tword.style.scale = randomScale;
+                    tword.style.top -= 2*randomScale;
+                    // document.getElementById('c').addChild(tword);
+
+
+
+                }
+        }
+            function string_handle(str) {
+                var split_str = str.split(" ");
+                var word_array = [];
+                var word_count = [];
+                for (var i = 0; i < split_str.length; i++) {
+                    check = true;
+                    for (var j = 0; j <= word_array.length; j++) {
+                        if (split_str[i] == word_array[j]) {
+                            word_count[j]++;
+                            check = false;
+                            break;
+                        }
+                    }
+                    if (check) {
+                        word_array.push(split_str[i]);
+                        word_count.push(1);
+                    }
+                }
+                for (var i = 0; i < word_array.length; i++) {
+                    words[word_array[i]] = word_count[i];
+                }
+                return words;
+            }
+
+            
+        
+            
+            
+            
+
+            
+    </script>
+    
+    
+    </body>
+
+</html>

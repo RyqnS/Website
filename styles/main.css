@@ -2,15 +2,16 @@ html,
 body {    
     margin: 0 !important;
     padding: 0 !important;
-    background: #0000;
+    background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
     overflow-x: hidden; 
     overflow-y:auto;
     min-width:1000px;
     position: fixed;
     height:100%;
+    
 }
 
-       
+
 p {
     font-size:18px;
     color:#fff;
@@ -22,7 +23,6 @@ h1{
     margin-top:2vh;
     margin-bottom:0vh;
     text-align:left;
-    color:#fff;
 }
 h2{
     font-family:"Comic Sans MS";
@@ -37,16 +37,16 @@ h3{
     color:#fff;
 }
 
+#t{
+   color:black; 
+}
+
 .center {
     display: block;
     margin: auto;
     margin-top:0;
     margin-bottom:0;
     text-align:center;
-}
-
-.fade {
-    background:linear-gradient(#11BB8B,rgb(0,0,0,0));
 }
 
 .header {
@@ -119,20 +119,21 @@ nav a:hover::before{
     top: 0;
     z-index:2;
     width: 100%;
+    background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
 }
 
 
 .progress-container {
     width: 100%;
     height: 4px;
-    background: #ccc;
+    background: #eb5050;
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
     /* margin-top:42px; */
     height: 4px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     width: 0%;
     z-index:2;
 }
@@ -190,6 +191,7 @@ nav {
     min-height:160vh;
     height:auto;
     margin-bottom:20vh;
+    color:black;
 }
 
 .circle {
@@ -200,7 +202,7 @@ nav {
     top: 50px; left: 50px;
     bottom: 50px; right: 50px;
     z-index:-1;
-    background: #fff;
+    background: rgb(103, 155, 186);
     border-radius: 50%;
     box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.65);
   }
@@ -215,7 +217,7 @@ nav {
     border-radius: 50%;
     border-width:10px;
     border-style:solid;
-    border-color:azure;
+    border-color:rgb(52, 167, 167);
 }
 
 
@@ -238,7 +240,7 @@ nav {
     transform:scale(1.2);
     z-index:1;
     filter: blur(0px); 
-    color:black;
+    color:rgb(58, 43, 43);
     font-size:10vh;
     vertical-align: middle;
     cursor:grab;
@@ -274,17 +276,18 @@ nav {
     margin-bottom:20vh;
     position:relative;
     overflow:auto;
+    color:black;
 }
 .left{
     margin-left:0;
     right:-5%;
-    box-shadow: 10px 20px 5vh grey;
+    box-shadow: 5px 10px 2.5vh grey;
 }
 
 .right{
     margin-left:auto;
     right:5%;
-    box-shadow: -10px 20px 5vh grey;
+    box-shadow: -5px 10px 2.5vh grey;
 }
 
 .word {
@@ -315,6 +318,7 @@ cursor: url(//www.googledrive.com/host/0B0hxcP1vkTd9bGZrVWVQZGlsUms), move
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
+    color:white;
 }
 
 @keyframes floating {

@@ -1,9 +1,13 @@
+html,
 body {    
     margin: 0 !important;
     padding: 0 !important;
     background: #BFFFF1;
     overflow-x: hidden; 
     overflow-y:auto;
+    min-width:1000px;
+    position: fixed;
+    height:100%;
 }
 
        
@@ -31,8 +35,9 @@ h3{
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-top:0;
+    margin-bottom:0;
     text-align:center;
 }
 
@@ -61,7 +66,7 @@ nav ul{
 
 nav li{
     display:inline-block;
-    margin-left: 30px;
+    margin-left: 2vh;
     padding-right:15px;
     padding-top:2.2vh;
     padding-bottom:2vh;
@@ -166,6 +171,7 @@ nav {
     Left:0;
     width: 100%;
     height: 100%;
+    min-width:1000px;
     background: url("../images/background.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -174,6 +180,7 @@ nav {
 }
 
 .Section{
+    min-width:1000px;
     min-height:160vh;
     height:auto;
     margin-bottom:20vh;
